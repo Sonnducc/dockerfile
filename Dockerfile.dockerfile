@@ -10,3 +10,5 @@ LABEL org.label-schema.schema-version="1.0" \
 CMD ["/bin/bash"]
 
 RUN yum update
+
+RUN yum install nano
